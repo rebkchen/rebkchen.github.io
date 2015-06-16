@@ -1,0 +1,62 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: helvetica;
+}
+
+header {
+	padding: 30px;
+	background-color: #cccccc;
+}
+
+body {
+	background: gray;
+}
+
+h1 {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 42px;
+	color: white;
+}
+
+div {
+	text-align: center;
+	padding: 40px;
+}
+
+img {
+	width: 350px;
+}
+
+h3 {
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 1cm;
+}
+
+#slogan {
+	font-style: italic;
+	font-size: 24px;
+}
+
+p {
+	font-size: 20px;
+	margin-left: 2cm;
+	margin-right: 2cm;
+}
+
+ul {
+	margin-left: 3cm;
+	margin-bottom: 1cm;
+	font-size: 20px;
+}
+
+footer {
+	padding: 50px;
+	background-color: #cccccc;
+	color: #000000;
+	text-align: center;
+	font-size: 20px;
+	text-decoration: bold
+}
