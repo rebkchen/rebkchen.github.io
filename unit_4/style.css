@@ -1,0 +1,66 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	padding: 15px;
+	background-color: #cccccc;
+}
+
+body {
+	background: white;
+}
+
+h1 {
+	color: rgb(41,43,42);
+	text-align: center;
+	font-family: 'Vesper Libre', serif;
+	font-size: 40px;
+}
+
+div {
+	text-align: center;
+	padding: 20px;
+}
+
+img {
+	width: 300px;
+}
+
+h3 {
+	font-family: 'Vesper Libre', serif;
+	font-size: 20px;
+	text-decoration: bold;
+	margin-bottom: 1em;
+	text-align: center;
+}
+
+#slogan {
+	font-size: 24px;
+}
+
+p {
+	font-size: 20px;
+	font-family: 'Vesper Libre', serif;
+	margin-left: 10em;
+	margin-right: 10em;
+
+}
+
+ul {
+	font-family: 'Vesper Libre', serif;	
+	font-size: 20px;
+	margin-left: 15em;
+	margin-bottom: 3em;
+}
+
+footer {
+	background-color: #cccccc;
+	color: #000000;
+	font-family: 'Vesper Libre', serif;
+	font-size: 20px;
+	padding: 20px;
+	text-align: center;
+	text-decoration: bold
+}
