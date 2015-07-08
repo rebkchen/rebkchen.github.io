@@ -1,3 +1,5 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+
 body {
 	color:#fff;
 	background-image:url("Hero3.jpg");
@@ -12,7 +14,7 @@ header {
 	background-color: #334339;
 	color:#ff3;
 	float: left;
-	margin: 0 50px;
+	margin: 20px 0 50px 50px;
 	padding:1em 0;
 	width: 200px;
 }
@@ -27,7 +29,7 @@ nav a {
 }
 
 nav a:hover {
-	background-color: yellow;
+	color: black;
 }
 
 nav p {
@@ -41,6 +43,7 @@ h1 {
 	font-family: "Nanum Myeongjo", serif;
 	font-weight: bold;
 	padding-bottom:1em;
+	text-align: center;
 }
 
 h2 {
@@ -51,12 +54,14 @@ h2 {
 img {
 	width: 150px;
 }
+
 .wrapper {
 	max-width: 1200px;
 }
+
 #maincontent {
 	margin: 60px;
-	width: 670px;
+	width: 700px;
 	float: right;
 }
 .clearfix:after {
