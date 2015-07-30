@@ -1,0 +1,125 @@
+* { margin:0; padding:0; box-sizing: border-box; 
+} 
+
+
+header {
+	background-color: #07AEA5;
+	padding: 1.2em 1em;
+	height: 6.9em;
+	color: #ffffff;
+}
+
+#researchLogo {
+	width: 20em;
+	margin-left: 2em;
+	float: left;
+}
+
+#logoText {
+	float: right;
+}
+
+.signupButtons {
+	background-color: #CCCC00;
+	border-radius: 1em;
+	color: #ffffff;
+	font-size: 1.05em;
+	float: right;
+	margin: .85em;
+	padding: .5em 3em .5em;
+	width: 4em;
+	text-decoration: none;
+	text-align: center;
+}
+
+.signupButtons:hover {
+	background-color: #A0A0A0;
+}
+
+body {
+	font-size: 16px;
+	font-family: 'Arvo', serif;
+}
+
+
+h1 {
+	font-size: 2em;
+	font-family: 'Pacifico', cursive;
+}
+
+section#hero {
+	background-image: url("images/Hero_laptop.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:70vh;
+	text-align: center;
+	clear: both;
+}
+
+a {
+	text-decoration: none;
+}
+
+a.learnmore {
+	border: .2em #292b2a solid;
+	border-radius: .2em;
+	color: #292b2a;
+	display: block;
+	font-size: 1.1em;
+	font-weight: 600;
+	padding: 1.2em 0;
+	text-align: center;
+	text-decoration: none;
+	width: 12em;
+
+}
+
+h2 {
+	font-size: 2em;
+	margin-bottom: 0.5em;
+	padding-top: 2em;
+}
+
+section#howitworks {
+	background: #ccc;
+}
+
+section#howitworks div{
+	margin:0 auto;
+	max-width:75em;
+}
+
+.steps {
+	float: left;
+	width: 20%;
+}
+
+h3, h4, p {
+	line-height: 1.25em;
+}
+
+footer {
+	clear: both;
+	background-color: #07AEA5;
+	padding: 3em;
+	height: 0em;
+	color: #ffffff;
+	text-align: center;
+
+}
+
+footer a {
+	padding: 0.5em 4em;
+	margin: 0 1em;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: Lato, sans-serif;
+}
+
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+} 
