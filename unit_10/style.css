@@ -1,0 +1,195 @@
+* { margin:0; padding:0; box-sizing: border-box; 
+} 
+
+
+body {
+	font-size: 16px;
+	font-family: 'Arvo', serif;
+	max-width: 1500px;
+	margin: 0 auto;
+}
+
+header {
+	background-color: #07AEA5;
+	padding: 1.2em 1em;
+	color: #ffffff;
+	height: 7em;
+}
+
+#researchLogo {
+	width: 20em;
+	margin-left: 2em;
+	float: left;
+}
+
+#logoText {
+	float: right;
+}
+
+.signupButtons {
+	background-color: #CCCC00;
+	border-radius: 1em;
+	color: #ffffff;
+	font-size: 1.05em;
+	float: right;
+	margin: .85em;
+	padding:.5em;
+	width: 10em;
+	text-decoration: none;
+	text-align: center;
+}
+
+.signupButtons:hover {
+	background-color: #A0A0A0;
+}
+
+h1 {
+	font-size: 2em;
+	font-family: 'Pacifico', cursive;
+}
+
+section#hero {
+	background-image: url("images/Hero_laptop.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	text-align: center;
+	clear: both;
+	padding: 4em 0;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+a.learnmore {
+	border: .2em #292b2a solid;
+	border-radius: .2em;
+	color: #292b2a;
+	display: block;
+	font-size: 1.5em;
+	font-weight: 700;
+	margin: 2em auto;
+	padding: 1.2em 0;
+	text-align: center;
+	text-decoration: none;
+	width: 12em;
+	box-shadow: 3px 3px 2px rgba(150, 150, 150, 1);
+
+
+}
+
+h2 {
+	font-size: 2em;
+	margin-bottom: 0.5em;
+	padding-top: 2em;
+	color: black;
+	text-shadow: 3px 3px rgba(150, 150, 150, 1);
+}
+
+section#howitworks {
+	background: #ccc;
+
+}
+
+section#howitworks div{
+	margin: 0 auto;
+	padding-bottom: 1em;
+	padding-left: 1.5em;
+}
+
+.steps {
+	float: left;
+	width: 32%;
+	padding: .5em 1em;
+}
+
+h3 {
+	font-size: 1.5em;
+	text-align: center;
+	padding-top: 1em;
+	padding-bottom: 1em;
+
+}	
+
+
+footer {
+	clear: both;
+	background-color: #07AEA5;
+	padding: 3em;
+	height: 0em;
+	color: #ffffff;
+	text-align: center;
+
+}
+
+footer a {
+	padding: 0.5em 4em;
+	margin: 0 1em;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: Lato, sans-serif;
+}
+  
+
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+} 
+
+
+@media only screen and (max-width: 785px) {
+	#researchLogo {
+		text-align: center;
+	}
+
+	.signupButtons {
+		display: none;
+	}
+
+	h2 {
+		display: none;
+	}
+
+	h3 {
+		font-size: 1.2em;
+	}
+
+	p {
+		font-size: .95em;
+	}
+
+	a.learnmore {
+		border: .2em #fff solid;
+		border-radius: .2em;
+		color: #fff;
+		display: block;
+		font-size: 1.5em;
+		font-weight: 500;
+		margin: 2em auto;
+		padding: 1.2em 0;
+		text-align: center;
+		text-decoration: none;
+		width: 10em;
+	}
+
+	.steps {
+		float: none;
+		width: 90%;
+		padding-left: 1em;
+		padding-bottom: 1em;
+	}
+
+	footer a {
+		margin: auto 0;
+		padding: 0.5em 1em;
+		font-size: .9em;
+	}
+
+	a.footer {
+		display: none;
+	}
+}
